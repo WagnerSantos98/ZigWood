@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Paleta de Cores*/
+:root{
+    /*Cores principais*/
+    --primary-color: #8C9EAB;
+    --secundary-color: #323232;
+
+    /*Cores - Gradient*/
+    --first-color: #2F3243;
+    --second-color: #21232F;
+
+    /*Cor de background - Footer*/
+    --background: #EFEAE7;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
