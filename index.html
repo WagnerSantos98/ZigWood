@@ -3,11 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Compiled CSS-->
+
+    <!--Vendor CSS Files-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--Template Mains CSS File-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home</title>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    
+    <title>ZigWood</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+            <a href="#"><img class="logo" src="assets/img/ZigWood_logo.png" alt="logo" width="230" width="80"></a>
+
+            <!--Navbar-->
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Conheça a ZigWood</a></li>
+                    <li><a href="#">Iluminações</a></li>
+                    <li class="dropdown"><a href="#">Móveis Planejados <i class="mdi mdi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#" class="active">Cozinha</a></li>
+                            <li><a href="#">Quarto</a></li>
+                            <li><a href="#">Sala</a></li>
+                            <li><a href="#">Banheiro</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <i class="mdi mdi-menu mobile-nav-toggle"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--Carousel-->
+    <section id="hero">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!--Slide 1-->
+                <div class="carousel-item active" style="background-image: url(assets/img/cozinha.jpg);"></div>
+            </div>
+
+            <a href="#heroCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                <span class="carousel-contorl-prev-icon mdi mdi-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a href="#heroCarousel" class="carousel-control-nect" role="button" data-bs-slide="nect">
+                <span class="carousel-contorl-nect-icon mdi mdi-chevron-right" aria-hidden="true"></span>
+            </a>
+
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        </div>
+    </section>
+
+    <!--Vendo JS Files-->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
