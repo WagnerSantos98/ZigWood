@@ -470,4 +470,204 @@ Section - Móveis
     color: #fff;
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------
+    Footer
+------------------------------------------------------------------------------------------------------------------------------------------------*/
+#depositions{
+    position: relative;
+    z-index: 1;
+}
 
+#footer #card-footer{
+    position: relative;
+    z-index: 2;
+}
+
+#footer .card-footer{
+    background: var(--secundary-color);
+    margin-left: 14%;
+    margin-right: 14%;
+    height: 120px;
+    margin-top: -60px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px 2px rgba(0,0,0,0.6);
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: 100vh; /* 100% da altura da viewport, ajuste conforme necessário */
+}
+
+.card-footer-phrase h6{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; /* Centralizar o texto horizontalmente */
+}
+
+#footer{
+    color: var(--secundary-color);
+    font-size: 14px;
+    background: var(--background);
+}
+
+#footer .footer-top{
+    padding: 60px 0 30px 0;
+    background-color: var(--background);
+}
+
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--secundary-color);
+}
+
+#footer .footer-top h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 24px;
+    color: var(--secundary-color);
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: var(--primary-color);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+
+#footer .footer-newsletter {
+    font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+
+.box{
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.linha-vertical{
+    border-left: 2px solid var(--secundary-color);
+    box-sizing: border-box;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 14%;
+    margin-right: 14%;
+    border-style: #8C9EAB;
+    border-width: 2px;
+    color: var(--primary-color);
+}
+
+#footer .social-links a{
+    font-size: 18px;
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: var(--secundary-color);
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .social-links p{
+    padding-right: 10px;
+    margin-bottom: 3px;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: var(--secundary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: var(--second-color);
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}

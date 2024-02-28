@@ -47,4 +47,30 @@
         heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
     });
 
+    //Back to top button
+    let backtotop = select('.back-to-top');
+
+if (backtotop) {
+    const toggleBacktotop = () => {
+        if (window.scrollY > 100) {
+            backtotop.classList.add('active');
+        } else {
+            backtotop.classList.remove('active');
+        }
+    };
+
+    // Adicione um event listener para a rolagem
+    window.addEventListener('scroll', toggleBacktotop);
+
+    // Adicione um event listener para carregamento da página
+    window.addEventListener('load', toggleBacktotop);
+
+    // Adicione um event listener para clique no botão "back to top"
+    backtotop.addEventListener('click', () => {
+        // Volte para o topo suavemente
+        window.animate({ top: 0, behavior: 'smooth' });
+    });
+}
+
+
 })()
