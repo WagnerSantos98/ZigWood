@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Vendor CSS Files-->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
     <!--Template Mains CSS File-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!--Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
@@ -17,7 +17,7 @@
 <body>
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
-            <a href="#"><img class="logo" src="assets/img/ZigWood_logo.png" alt="logo" width="230" width="80"></a>
+            <a href="#"><img class="logo" src="../assets/img/ZigWood_logo.png" alt="logo" width="230" width="80"></a>
 
             <!--Navbar-->
             <nav id="navbar" class="navbar order-last order-lg-0">
@@ -40,137 +40,27 @@
 
         </div>
     </header>
-
-    <!--Section - Carousel-->
-    <section id="hero">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    
-          <div class="carousel-inner" role="listbox">
-    
-            <!-- Slide 1 -->
-            <div class="carousel-item active" style="background-image: linear-gradient(180deg, rgba(47,50,67,0) 0%, rgba(33,35,47,0.9) 100%),url(assets/img/slide/cozinha.jpg);">
-            </div>
-    
-            <!-- Slide 2 -->
-            <div class="carousel-item" style="background-image: linear-gradient(180deg, rgba(47,50,67,0) 0%, rgba(33,35,47,0.9) 100%), url(assets/img/slide/quarto.jpg);">
-            </div>
-    
-            <!-- Slide 3 -->
-            <div class="carousel-item" style="background-image: linear-gradient(180deg, rgba(47,50,67,0) 0%, rgba(33,35,47,0.9) 100%), url(assets/img/slide/sala.jpg);">
-              
-            </div>
-    
-          </div>
-    
-          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon mdi mdi-chevron-left" aria-hidden="true"></span>
-          </a>
-    
-          <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon mdi mdi-chevron-right" aria-hidden="true"></span>
-          </a>
-    
-          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-    
-        </div>
-      </section>
-
       
 
-      <!--Section - Móveis-->
-      <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="section-title">
-                    <h2>Movéis Planejados</h2>
-                  </div>      
-                <div class="col-md-3">
-                    <div class="card card-01 height-fix">
-                    <img class="card-img-top" src="assets/img/cards/cozinha.png" alt="Card image cap">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title"><strong>Cozinha</strong></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card card-01 height-fix">
-                    <img class="card-img-top" src="assets/img/cards/quarto.png" alt="Card image cap">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title"><strong>Quarto</strong></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card card-01 height-fix">
-                    <img class="card-img-top" src="assets/img/cards/sala.png" alt="Card image cap">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title"><strong>Sala</strong></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card card-01 height-fix">
-                    <img class="card-img-top" src="assets/img/cards/banheiro.png" alt="Card image cap">
-                        <div class="card-img-overlay">
-                            <h4 class="card-title"><strong>Banheiro</strong></h4>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
-      </section>
-
-
-      <!--Section - Vídeo-->
-      <section id="player" class="player">
-        <div class="container-player">
-            <div class="container-video" data-aos="fade-up">  
-                <div class="wrapper"></div>
-                <div class="gradient"></div>
-                <video src="assets/img/video/rooms.mp4" width="1164" height="655" autoplay loop></video>
-            </div>
-            
-            <div class="card-phrase">
-                <h6 class="phrase">Nós somos incansáveis na busca das tecnologias mais modernas, dos 
-                    padrões e texturas que seguem as tendências, dos aspectos 
-                    ergonômicos, da praticidade e da proteção ao meio ambiente.</h6>
-            </div>
-        </div>
-      </section>
-
       <!--Section - Depoimentos-->
-      <section id="depositions" class="depositions section-bg">
+      <section id="depositions" class="about section-bg-gradient">
         <div class="container" data-aos="fade-up">
 
             <div class="row content">
-              <div class="col-lg-6" data-aos="fade-right">
-                <h2>Bem-estar é tudo</h2>
-                <h3>Veja casos reais de clientes que confiam em nossa marca.</h3>
-                <p>
-                    Uma casa inteirinha com móveis Finger. É assim a
-                    residência da Paula, com projeto assinado pela arquiteta
-                    Natália Coelho. “A montagem foi feita dentro da
-                    programação e a assistência no pós venda é um diferencial,
-                    sendo uma empresa com capacitação técnica elevada. Não
-                    tem como dizer qual ambiente ficou melhor, porque
-                    amamos tudo!”
-                </p>
-                <div class="written">
-                    <p>Escrito por: <strong>Wagner Santos</strong></p>
-                </div>
-                
+              <div class="col-lg-6 pt-4 " data-aos="fade-right">
+                <img src="../assets/img/ZigWood_logo.png" alt="" width="694" height="240">
               </div>
-              <div class="col-lg-6 pt-4 pt-lg-0">
-                <div class="card-photo" id="card-photo">
-                     <div class="written-photo">
-                        <img src="assets/img/depoimentos/cozinha_depoimento.jpg" alt="">
-                    </div>
-                </div>
-               
+              <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+                <p>
+                    Seja bem-vindo à <strong>ZigWood</strong> sua loja online de móveis planejados. Nós oferecemos tudo o que você precisa para transformar a sua casa em um lar aconchegante e acolhedor. 
+                    Com mais de 10 anos de experiência no mercado, somos especialistas em criar soluções sob medida para atender às suas necessidades e desejos.
+
+                    Nossos móveis são feitos de madeira de alta qualidade, e nossa equipe de artesãos experientes trabalha com cuidado e dedicação para garantir que cada peça seja única e durável. 
+                    Além disso, oferecemos uma ampla variedade de opções de personalização, incluindo cores, acabamentos e tamanhos.
                 
+                    Não importa se você está procurando um sofá confortável para a sua sala de estar, uma cama aconchegante para o seu quarto ou uma mesa elegante para o seu escritório, aqui na <strong>ZigWood</strong> você encontrará tudo o que precisa. 
+                    Explore a nossa coleção de móveis planejados agora mesmo e comece a transformar a sua casa em um lar dos sonhos.
+                </p>
               </div>
             </div>
     
@@ -297,8 +187,8 @@
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="mdi mdi-chevron-up"></i></a>
 
     <!--Vendo JS Files-->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
