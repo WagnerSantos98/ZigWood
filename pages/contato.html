@@ -49,86 +49,169 @@
     
             <div class="d-flex justify-content-between align-items-center">
               <h2>Fale Conosco</h2>
-              <ul class="nav nav-tabs">
-                <li class="nav-item"><i class="mdi mdi-phone"></i> <a href="#menu1">Fale Conosco</a></li>
-                <li class="nav-item"><i class="mdi mdi-calculator-variant-outline"></i> <a href="#orcamento">Solicitar Orçamento</a></li>
-              </ul>
+              
             </div>
     
           </div>
         </section><!-- End Breadcrumbs -->
 
-    
-        <!-- ======= Contact Section ======= -->
-        <div class="map-section">
-          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-        </div>
-    
-        <section id="contact" class="contact">
-          <div class="container">
+
+        <!-- ======= Features Section ======= -->
+    <section id="features" class="features contact section-bg-gradient">
+        <div class="container" data-aos="fade-up">
+  
+          <ul class="nav nav-tabs row  g-2 d-flex">
+  
+            <li class="nav-item col-3">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                <h4>Fale Conosco</h4>
+              </a>
+            </li><!-- End tab nav item -->
+  
+            <li class="nav-item col-3">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                <h4>Solicitar Orçamento</h4>
+              </a><!-- End tab nav item -->
+  
+          </ul>
+  
+          <div class="tab-content">
+  
+            <div class="tab-pane active show" id="tab-1">
+                <div class="container" data-aos="fade-up">
+
+                    <div class="section-title">
+                      <h2>Fale Conosco</h2>
+                    </div>
             
-    
-            <div class="row justify-content-center" data-aos="fade-up">
-    
-              <div class="col-lg-10">
-    
-                <div class="info-wrap">
-                  <div class="row">
-                    <div class="col-lg-4 info">
-                      <i class="bi bi-geo-alt"></i>
-                      <h4>Location:</h4>
-                      <p>A108 Adam Street<br>New York, NY 535022</p>
+                    <div class="row">
+            
+                      <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                          <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                          </div>
+            
+                          <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@example.com</p>
+                          </div>
+            
+                          <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+1 5589 55488 55s</p>
+                          </div>
+            
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                        </div>
+            
+                      </div>
+            
+                      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                          <div class="row">
+                            <div class="form-group col-md-6">
+                              <label for="name">Your Name</label>
+                              <input type="text" name="name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="name">Your Email</label>
+                              <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                          </div>
+                          <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+                      </div>
+            
                     </div>
-    
-                    <div class="col-lg-4 info mt-4 mt-lg-0">
-                      <i class="bi bi-envelope"></i>
-                      <h4>Email:</h4>
-                      <p>info@example.com<br>contact@example.com</p>
-                    </div>
-    
-                    <div class="col-lg-4 info mt-4 mt-lg-0">
-                      <i class="bi bi-phone"></i>
-                      <h4>Call:</h4>
-                      <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
-                    </div>
+            
                   </div>
+            </div><!-- End tab content item -->
+  
+            <div class="tab-pane" id="tab-2">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                  <h3>Neque exercitationem debitis</h3>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                  </ul>
                 </div>
-    
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
+                </div>
               </div>
-    
-            </div>
-    
-            <div class="row mt-5 justify-content-center" data-aos="fade-up">
-              <div class="col-lg-10">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="row">
-                    <div class="col-md-6 form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                    </div>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
+            </div><!-- End tab content item -->
+  
+            <div class="tab-pane" id="tab-3">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                  <h3>Voluptatibus commodi accusamu</h3>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
+                  </ul>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+                </div>
               </div>
-    
-            </div>
-    
+            </div><!-- End tab content item -->
+  
+            <div class="tab-pane" id="tab-4">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                  <h3>Omnis fugiat ea explicabo sunt</h3>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div><!-- End tab content item -->
+  
           </div>
-        </section><!-- End Contact Section -->
+  
+        </div>
+      </section><!-- End Features Section -->
     
+        
       </main><!-- End #main -->
    
 
