@@ -151,23 +151,75 @@
             </div><!-- End tab content item -->
   
             <div class="tab-pane" id="tab-2">
-              <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                  <h3>Neque exercitationem debitis</h3>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                    <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                  </ul>
+              <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                  <h2>Solicitar Orçamento</h2>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
+        
+                <div class="row">
+        
+                  
+        
+                  <div class="col-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <div class="row">
+                        <div class="form-group col-md-6">
+                          <label for="name">Nome</label>
+                          <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="name">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="form-group col-md-6">
+                          <label for="name">Contato</label>
+                          <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="name">Anexo de Plantas e Imagens(Opcional)</label>
+                          <div class="input-group">
+                              <input type="file" name="name" class="form-control form-control-custom" id="name">
+                          </div>
+                      </div>
+                      
+                      
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="name">Selecione os ambientes que deseja mobiliar</label>
+                        <div class="row">
+                          <div class="form-group-col-md-6">
+                            <input class="form-check-input form" type="checkbox">
+                            <label class="check-info" for="cozinha">Cozinha</label>
+                            <input class="form-check-input form" type="checkbox">
+                            <label class="check-info" for="quarto">Quarto</label>
+                            <input class="form-check-input form" type="checkbox">
+                            <label class="check-info" for="sala">Sala</label>
+                            <input class="form-check-input form" type="checkbox">
+                            <label class="check-info" for="banheiro">Banheiro</label>
+                          </div>
+                          
+                        </div>
+                        
+
+                      </div>
+                      <div class="form-group">
+                        <label for="name">Mensagem</label>
+                        <textarea class="form-control" name="message" rows="10" required></textarea>
+                      </div>
+                      <div class="my-3">
+                        <div class="loading">Carregando</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                      </div>
+                      <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+                    </form>
+                  </div>
+        
                 </div>
+        
               </div>
             </div><!-- End tab content item -->
   

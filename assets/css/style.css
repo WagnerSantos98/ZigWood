@@ -903,6 +903,15 @@ Section - Móveis
   .contact .php-email-form textarea {
     padding: 10px 12px;
   }
+
+  .contact .php-email-form input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact .php-email-form .check-info{
+    padding: 2px 3px;
+  }
   
   .contact .php-email-form button[type=submit] {
     background: var(--secundary-color);
@@ -912,7 +921,20 @@ Section - Móveis
     transition: 0.4s;
     border-radius: 3px;
   }
-  
+
+.form-control-custom{
+  padding-right: 30px; 
+  background: url('../img/icons/download-box.svg') no-repeat right center; 
+  background-size: 60px;
+}
+
+input[type=file] {
+  color: transparent;
+  width: 0.1px;
+  height: 0.1px;
+  overflow: hidden;
+}
+
   .contact .php-email-form button[type=submit]:hover {
     background: var();
   }
