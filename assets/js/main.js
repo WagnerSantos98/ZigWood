@@ -72,6 +72,8 @@ if (backtotop) {
     });   
 }
 
+
+//slide page moveis
 const slider = document.querySelector('.slider');
 
 function activate(e){
