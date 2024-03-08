@@ -1043,7 +1043,7 @@ input[type=file] {
   }
 }
 
-.nav {
+.nav-button {
   position: absolute;
   bottom: 2rem;
   left: 50%;
