@@ -1216,6 +1216,16 @@ input[type=file] {
   margin-bottom: 20px;
 }
 
+.pricing h5{
+  color: var(--secundary-color);
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.pricing h6{
+  font-weight: 300;
+}
+
 .pricing h4 sup {
   font-size: 20px;
   top: -15px;
@@ -1295,6 +1305,8 @@ input[type=file] {
   background: var(--primary-color);
   color: #fff;
 }
+
+
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------
