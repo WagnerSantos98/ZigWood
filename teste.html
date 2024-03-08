@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+        .card {
+            display: flex;
+            width: 650px;
+            height: 300px;
+            margin: 20px;
+            background-color: #323232;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .conteudo-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centraliza verticalmente o conteúdo */
+            padding: 20px;
+        }
+
+        .image-product{
+            display: flex;
+            margin-top: -320px;
+        }
+
+
+        .imagem-flutuante {
+            margin-left: 400px;
+            width: 430px;
+            height: auto;
+        }
+
+        .title-product {
+            color: #fff;
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 38px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            padding: 40px 20px 0;
+        }
+
+        .sub-product {
+            display: block;
+            margin-top: 10px;
+            margin-left: 50%;
+            font-family: 'Yellowtail', 'sans-serif';
+            font-size: 110px;
+            color: #fff;
+            white-space: nowrap;
+        }
+        .product-info{
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: 400;
+            display: block;
+            margin-top: 0px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        @media only screen and(max-width: 768px){
+            .card{
+                max-width: 100%;
+            }
+
+            .imagem-flutuante{
+                margin-left: 0;
+            }
+
+            .title-product{
+                font-size: 24px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="conteudo-card">
+            <h2 class="title-product">Pendente</h2>
+            <p class="sub-product">Bodas <strong class="product-info">80x60x1,8CM - DOURADO</strong></p>
+        </div>
+    </div>
+    <div class="image-product">
+        <img src="assets/img/store/lustre.png" alt="" class="imagem-flutuante">
+    </div>
+    
+</body>
+</html>
