@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 /*Paleta de Cores*/
 :root{
     /*Cores principais*/
@@ -12,6 +13,11 @@
 
     /*Cor de background - Footer*/
     --background: #EFEAE7;
+
+    --barW: 350px;
+    --barH: 10px;
+    --barCompletion: 0.0;
+    --bgcol: #262626;
 }
 
 body{
@@ -1505,5 +1511,60 @@ hr{
   opacity: 1;
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------------
+  3D - Loading
+------------------------------------------------------------------------------------------------------------------------------------------------*/
+.container-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Isso garante que a altura do contêiner seja 100% da altura da tela */
+}
+
+.container-icons {
+  display: flex;
+  flex-direction: row; /* Alterado para linha para colocar os elementos lado a lado */
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Para centralizar o texto horizontalmente */
+}
+
+.container-icons span {
+  margin-right: 5px; /* Adicionado margem à direita para espaçamento entre span e img */
+}
+
+.container-icons img {
+  max-width: 100%;
+}
+
+.container-bar {
+  margin-top: 20px;
+}
 
 
+
+.loader{
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 400px;
+  background-color: var(--background);
+  overflow: hidden;
+}
+
+.loader::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: var(--primary-color);
+  animation: 6s prog ease infinite;
+}
+@keyframes prog{
+  to{
+    width: 100%;
+  }
+}
